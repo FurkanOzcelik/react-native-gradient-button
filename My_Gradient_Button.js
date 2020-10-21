@@ -10,14 +10,14 @@ const My_Gradient_Button = ({
   modify_text_style = {},
   onPress = () => {},
   on_press_opacity = 0.4,
-  is_linear = true,
+  is_vertical = true,
   colors = ['#6034ac', '#d07911'],
 }) => {
   return (
     <TouchableOpacity activeOpacity={on_press_opacity} onPress={onPress}>
       <LinearGradient
-        start={is_linear ? {x: 0, y: 1} : {x: 0, y: 1}}
-        end={is_linear ? {x: 0, y: 0} : {x: 1, y: 0}}
+        start={is_vertical ? {x: 0, y: 1} : {x: 0, y: 1}}
+        end={is_vertical ? {x: 0, y: 0} : {x: 1, y: 0}}
         colors={colors}
         style={[gradient_style, modify_gradient_style]}>
         <Text style={[text_style, modify_text_style]}>{button_text}</Text>
