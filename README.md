@@ -35,7 +35,7 @@ opacity of button onPress, value between 0-1
 
 default -> 0.4
 
-is_linear:
+is_vertical:
 direction of gradient color style
 
 default -> true -> vertical
@@ -43,7 +43,7 @@ default -> true -> vertical
 if set to false horizontal
 
 colors:
-colors used in gradient, you can use as many as you want
+colors used in gradient, you can use as many as you want but it must be more than one
 
 default -> ['#6034ac', '#d07911'],
 
