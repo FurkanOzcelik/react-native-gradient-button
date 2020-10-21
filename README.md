@@ -18,15 +18,15 @@ style of button text
 default -> styles.textStyle,
 
 modify_text_style:
-if you like default style but just want to change or add something, this prop will modify the style of button and keep other style features same
+if you like default style but just want to change or add something, this prop will modify the style of text and keep other style features same
 default -> {}
 
 onPress:
 what happens when button clicked
-default -> {}
+default -> {() => {}} 
 
 on_press_opacity:
-opacity of button onPress
+opacity of button onPress, value between 0-1
 default -> 0.4
 
 is_linear:
