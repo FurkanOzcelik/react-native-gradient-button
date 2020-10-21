@@ -1,5 +1,7 @@
 # react-native-gradient-button
 
+![](images/Screenshot_2.png)
+
 Props:
 button_text -> text
 
