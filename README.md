@@ -37,3 +37,9 @@ if set to false horizontal
 colors:
 colors used in gradient, you can use as many as you want
 default -> ['#6034ac', '#d07911'],
+
+horizontal gradient
+
+![](images/Screenshot_2.png)
+
+![](images/Screenshot_2.png)
