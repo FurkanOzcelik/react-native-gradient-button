@@ -38,8 +38,8 @@ colors:
 colors used in gradient, you can use as many as you want
 default -> ['#6034ac', '#d07911'],
 
-horizontal gradient
+Horizontal Gradient
 
-![](images/Screenshot_2.png)
+![](images/Screenshot_3.png)
 
-![](images/Screenshot_2.png)
+![](images/Screenshot_4.png)
